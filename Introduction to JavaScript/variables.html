@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Variables</h1>
+
+    <h3>Student details</h3>
+
+    <button onclick="details()">Details</button>
+
+    <p id="n"></p>
+
+    <p id="a"></p>
+
+    <p id="s"></p>
+
+    <script>
+
+        var name = "Zia";
+
+        var age = 13;
+
+        var student = true;
+
+        function details() {
+
+            document.getElementById("n").innerHTML = "Name : " + name;
+
+            document.getElementById("a").innerHTML = "Age : " + age;
+
+            document.getElementById("s").innerHTML = "Status : " + student;
+
+        }
+
+    </script>
+</body>
+
+</html>
