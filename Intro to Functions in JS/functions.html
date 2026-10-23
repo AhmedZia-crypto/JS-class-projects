@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Multiplication</h1>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <button onclick="multiply()">Answer</button>
+    <p id="result"></p>
+
+    <script>
+        
+        var a = 10;
+        var b = 15;
+        document.getElementById("para1").innerHTML = "First Number: " +a;
+        document.getElementById("para2").innerHTML = "First Number: " +b;
+
+        function multiply(){
+            document.getElementById("result").innerHTML = "The Result Is: " +a*b;
+        }
+        
+    </script>
+</body>
+</html>
